@@ -4,9 +4,12 @@ repos:
     hooks:
       - id: mypy
         args: [--show-error-codes, --pretty]
+        files: ^src/
         additional_dependencies:
           - types-requests
           - types-PyYAML
+          - pytest
+          - typer
 
 
 
