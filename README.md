@@ -190,7 +190,7 @@ python -m src.main math --help
     python -m src.main sort heap "[3, 1, 2]" --cmp desc
     ```
 
-### Детали реализации алгоритмов
+#### Детали реализации алгоритмов
 
 **Единая логика сравнения (`key`/`cmp`)**
 
@@ -204,7 +204,7 @@ python -m src.main math --help
 `counting_sort`, `radix_sort` и `bucket_sort` — специализированные варианты и `key/cmp` не поддерживают.
 
 
-## Тесты
+### Тесты
 
 В проекте есть набор тестов на `pytest`:
 
